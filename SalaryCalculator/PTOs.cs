@@ -6,23 +6,26 @@ using System.Threading.Tasks;
 
 namespace SalaryCalculator
 {
-    class PTOs
+    public class PTOs
     {
-        int totalPTOs;
-        PTOs(int numPTOs)
+        //Each full-time employee has a 10-day PTO
+        public int totalPTOs = 80;
+        public PTOs()
         {
-            totalPTOs = numPTOs;
+         
         }
 
         //update PTOs
-        void usePTO(int num)
+        public void usePTO(int num)
         {
             totalPTOs = totalPTOs - num;
         }
 
-        int currentTotalPTOs()
+        //Getter of PTO
+        public int currentTotalPTOs()
         {
             return totalPTOs;
         }
+
     }
 }

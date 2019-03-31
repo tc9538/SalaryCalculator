@@ -9,15 +9,20 @@ namespace SalaryCalculator
     public class SalaryCalculator
     {
         double totalHours;
-        double payRate = 21.5;
+        double payRate;
         public SalaryCalculator()
         {
-        
+            
         }
         
         public void setTotalHours(double hours)
         {
             this.totalHours = hours;
+        }
+
+        public void setHourlyRate(double rate)
+        {
+            this.payRate = rate;
         }
 
         public void salaryCalculator()
