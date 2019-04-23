@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SalaryCalculator
+namespace Data
 {
-    public class SalaryCalculator
+    public class Salary
     {
         double totalHours;
         double payRate;
-        public SalaryCalculator()
+        double result;
+        public Salary()
         {
             
         }
@@ -27,8 +28,14 @@ namespace SalaryCalculator
 
         public void salaryCalculator()
         {
-            double result = totalHours * payRate;
+            this.result = totalHours * payRate;
             Console.WriteLine("Your gross income for this week is $" + result);
         }
+
+        public double getCalculatedSalary()
+        {
+            return this.result;
+        }
+        
     }
 }

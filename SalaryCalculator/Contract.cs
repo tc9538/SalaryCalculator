@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SalaryCalculator
+namespace Data
 {
     public class Contract
     {
@@ -14,6 +14,10 @@ namespace SalaryCalculator
 
         }
 
+        public void setContractEndDate(String s)
+        {
+           st = s;
+        }
         public String getContractEndDate()
         {
             return st;
