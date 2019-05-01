@@ -65,7 +65,7 @@ namespace Data
                 Console.WriteLine("Choose one of the options above or enter 'Q' to quit the application");
                 st = Console.ReadLine();
 
-                //Console.Read(); // DREW, ADDED SO THAT CONSOLE DOESN'T IMMEDIATELY DISAPPEAR
+                
             }
 
             

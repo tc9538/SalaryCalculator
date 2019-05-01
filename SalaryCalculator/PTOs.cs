@@ -37,12 +37,12 @@ namespace Data
             return totalPTOs;
         }
 
-        public void storeData()
-        {
-            Hashtable table = new Hashtable();
-            table.Add("Truc", 80);
-            table.Add("Drew", 70);
-        }
+        //public void storeData()
+        //{
+        //    Hashtable table = new Hashtable();
+        //    table.Add("Truc", 80);
+        //    table.Add("Drew", 70);
+        //}
 
         public void getPTOByName(String name)
         {
